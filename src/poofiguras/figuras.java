@@ -18,4 +18,10 @@ public class figuras {
         area=(base*altura)/2;
         JOptionPane.showMessageDialog(null, "El area del triangulo es :" + area);
     }
+    public void circulo() {
+        double radio,area;
+        radio = Double.parseDouble(JOptionPane.showInputDialog("Digite el radio del circulo"));
+        area= Math.PI * Math.pow(radio, 2);
+        JOptionPane.showMessageDialog(null, "El area del circulo es :" + area);
+    }
 }
