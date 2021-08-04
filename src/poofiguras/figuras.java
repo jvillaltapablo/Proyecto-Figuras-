@@ -24,4 +24,11 @@ public class figuras {
         area= Math.PI * Math.pow(radio, 2);
         JOptionPane.showMessageDialog(null, "El area del circulo es :" + area);
     }
+    public void rectangulo() {
+        double altura,base,area;
+        base = Double.parseDouble(JOptionPane.showInputDialog("Digite la base del rectangulo"));
+        altura = Double.parseDouble(JOptionPane.showInputDialog("Digite la altura del rectangulo"));
+        area=(base*altura);
+        JOptionPane.showMessageDialog(null, "El area del rectangulo es :" + area);
+    }
 }
